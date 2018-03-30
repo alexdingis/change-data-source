@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Created on Thu Mar 29 19:20:26 2018
 
@@ -18,19 +17,19 @@ import time
 #
 # this is the directory for MXDs to be examined
 #
-my_dir     = r"C:\Users\Alexander\Desktop\School\Projects\Change_Data_Source\MXD"
+my_dir     = r"C:\file\path\to\a\directory\full\of\MXDs"
 #
 # this is the layer you are looking for
 #
 lyr_sought = "counties"
 #
-# this is the ***full filepath*** desired
+# this is the ***full filepath*** of the desired data source
 #
-new_source = r"C:\Users\Alexander\Desktop\School\Projects\Change_Data_Source\Data\New_Database.gdb\counties"
+new_source = r"C:\file\path\to\a\New_Database.gdb\counties"
 #
+# this is ***just the filepath to the geodatabase*** of the desired data source
 #
-#
-new_gdb    = r"C:\Users\Alexander\Desktop\School\Projects\Change_Data_Source\Data\New_Database.gdb"
+new_gdb    = r"C:\file\path\to\a\New_Database.gdb"
 #
 #
 #
